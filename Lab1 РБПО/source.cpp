@@ -8,7 +8,6 @@ void ReadDataPerson(string&, unsigned short&, unsigned short&, unsigned short&, 
 void WritePersonData(const string&, unsigned short*, const string&, const string&);
 
 int main() {
-	setlocale(LC_ALL, "Russian");
 	unsigned short weight = 0;
 	unsigned short age = 0;
 	string name;
