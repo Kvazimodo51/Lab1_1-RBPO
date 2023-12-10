@@ -19,11 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <VCProjectVersion>16.0</VCProjectVersion>
+    <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{98c647f5-ebef-4809-8958-8d8bcedd466d}</ProjectGuid>
-    <RootNamespace>Lab1РБПО</RootNamespace>
+    <ProjectGuid>{c25e119b-7ca3-4a0e-bf67-a0b37dfebbad}</ProjectGuid>
+    <RootNamespace>Лабарбпо12</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>task_2</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -127,7 +128,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ReadPersonAge.cpp" />
+    <ClCompile Include="ReadPersonData1.cpp" />
+    <ClCompile Include="ReadPersonData2.cpp" />
+    <ClCompile Include="ReadPersonHeight.cpp" />
+    <ClCompile Include="ReadPersonName.cpp" />
+    <ClCompile Include="ReadPersonSalary.cpp" />
+    <ClCompile Include="ReadPersonWeight.cpp" />
+    <ClCompile Include="WritePersonData.cpp" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
