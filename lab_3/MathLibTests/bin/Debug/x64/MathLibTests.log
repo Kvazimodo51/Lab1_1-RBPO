@@ -1,0 +1,6 @@
+﻿  ComplexTest.cpp
+C:\Users\Макс\OneDrive\Рабочий стол\CppLab5-main\MathLibTests\ComplexTest.cpp(4,12): warning C5050: Возможная несовместимая среда при импорте модуля "Math": _GUARDOVERFLOW_CRT_ALLOCATORS=1 is defined in module command line and not in current command line
+  RationalTest.cpp
+C:\Users\Макс\OneDrive\Рабочий стол\CppLab5-main\MathLibTests\RationalTest.cpp(4,12): warning C5050: Возможная несовместимая среда при импорте модуля "Math": _GUARDOVERFLOW_CRT_ALLOCATORS=1 is defined in module command line and not in current command line
+  Создание кода...
+  MathLibTests.vcxproj -> C:\Users\Макс\OneDrive\Рабочий стол\CppLab5-main\bin\Debug\x64\MathLibTests.exe
