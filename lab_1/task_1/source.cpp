@@ -6,7 +6,7 @@ double salary;
 void ReadDataPerson(string&, unsigned short&, double&);
 void ReadDataPerson(string&, unsigned short&, unsigned short&, unsigned short&, double&);
 void WritePersonData(const string&, unsigned short*, const string&, const string&);
-
+#ifndef DO_NOT_DEFINE_MAIN
 int main() {
 	unsigned short weight = 0;
 	unsigned short age = 0;
@@ -20,6 +20,7 @@ int main() {
 
 	return 0;
 }
+#endif
 
 unsigned short ReadPersonAge() {
 	unsigned short age;
